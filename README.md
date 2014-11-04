@@ -5,7 +5,7 @@ Pull to Refresh for the Web
 
 This is a pull to refresh implementation for the web. It focuses on buttery UX performance and responsiveness to feel as close to a native implementation as possible.
 
-Try out a demo here: http://apeatling.com/demos/web-ptr/ or read the blog post here: http://apeatling.com/2014/javascript-pull-to-refresh-web/
+[Try a Demo](http://apeatling.com/demos/web-ptr/) | [Read the Blog Post](http://apeatling.com/2014/javascript-pull-to-refresh-web/)
 
 ## Usage
 
@@ -78,3 +78,5 @@ There are a few optional parameters you can pass on initialization:
 	distanceToRefresh: 70, 
 }
 ```
+
+[Try a Demo](http://apeatling.com/demos/web-ptr/) | [Read the Blog Post](http://apeatling.com/2014/javascript-pull-to-refresh-web/)
