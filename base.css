@@ -1,0 +1,137 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #333;
+	margin: 0;
+}
+
+#ptr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	z-index: 10;
+	text-align: center;
+	height: 50px;
+}
+
+#ptr .genericon {
+	opacity: .6;
+	font-size: 34px;
+	width: auto;
+	height: auto;
+	transition: all .25s ease;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-top: 5px;
+}
+.ptr-refresh #ptr .genericon {
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.ptr-loading #ptr .genericon,
+.ptr-reset #ptr .genericon {
+	display: none;
+}
+
+.loading {
+	display: inline-block;
+	text-align: center;
+	opacity: .4;
+	margin: 12px 0 0 5px;
+	display: none;
+}
+.ptr-loading .loading {
+	display: block;
+}
+
+.loading span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	-webkit-transform: scale(0.3);
+	transform: scale(0.3);
+	border-radius: 50%;
+	-webkit-animation: ptr-loading 0.4s infinite alternate;
+	animation: ptr-loading 0.4s infinite alternate;
+}
+
+#l1 {
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+}
+
+#l2 {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+#l3 {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+@-webkit-keyframes ptr-loading {
+	0% {
+		-webkit-transform: translateY(0) scale(0.3);
+		transform: translateY(0) scale(0.3);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background-color: #fff;
+		opacity: 1;
+	}
+}
+
+@keyframes ptr-loading {
+	0% {
+		-webkit-transform: translateY(0) scale(0.3);
+		transform: translateY(0) scale(0.3);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background-color: #fff;
+		opacity: 1;
+	}
+}
+
+#content {
+	background: #fff;
+	min-height: 100%;
+	z-index: 20;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	padding: 50px 20px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 200;
+	color: #555;
+	box-sizing: border-box;
+}
+
+.ptr-loading #content, .ptr-reset #content,
+.ptr-loading #ptr, .ptr-reset #ptr {
+	transition: all .25s ease;
+}
+
+.ptr-reset #content {
+	-webkit-transform: translate3d( 0, 0, 0 );
+	transform: translate3d( 0, 0, 0 );
+}
+
+.ptr-loading #content {
+	-webkit-transform: translate3d( 0, 50px, 0 );
+	transform: translate3d( 0, 50px, 0 );
+}
