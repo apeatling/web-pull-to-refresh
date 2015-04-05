@@ -1,5 +1,5 @@
-Pull to Refresh for the Web
-===========================
+Pull to Refresh for the Web 1.1
+===============================
 
 ![Web Pull to Refresh](http://apeatling.com/wp-content/uploads/2014/11/ptr-header1-1000x400.png)
 
@@ -34,7 +34,7 @@ This will work just fine with your own loading indicators or pull down arrow, ju
 In order for this to function, you'll need to load both Hammer.js and the wptr.js script, and then initialize the WebPullToRefresh module. Add this just before the closing body tag:
 
 ```
-<script src="lib/hammer.1.1.3.js"></script>
+<script src="lib/hammer.2.0.4.js"></script>
 <script src="lib/wptr.1.0.js"></script>
 
 <script>
@@ -76,6 +76,9 @@ There are a few optional parameters you can pass on initialization:
 
 	// Number of pixels of dragging down until refresh will fire
 	distanceToRefresh: 70, 
+
+  // The dragging resistance level, the higher the more you'll need to drag down.
+  resistance: 2.5
 }
 ```
 
