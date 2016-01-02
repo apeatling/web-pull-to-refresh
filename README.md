@@ -77,6 +77,9 @@ There are a few optional parameters you can pass on initialization:
 	// Number of pixels of dragging down until refresh will fire
 	distanceToRefresh: 70, 
 
+  // Callback to toggle loading message
+  toggleLoadingMsgFunction: false,
+
   // The dragging resistance level, the higher the more you'll need to drag down.
   resistance: 2.5
 }
