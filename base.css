@@ -119,6 +119,7 @@ body {
 	font-weight: 200;
 	color: #555;
 	box-sizing: border-box;
+    touch-action: pan-x !important;
 }
 
 .ptr-loading #content, .ptr-reset #content,
