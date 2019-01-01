@@ -1,11 +1,11 @@
 Pull to Refresh for the Web 1.1
 ===============================
 
-![Web Pull to Refresh](http://apeatling.com/wp-content/uploads/2014/11/ptr-header1-1000x400.png)
+![Web Pull to Refresh](https://apeatling.com/wp-content/uploads/2019/01/ptr-header1.png)
 
 This is a pull to refresh implementation for the web. It focuses on buttery UX performance and responsiveness to feel as close to a native implementation as possible.
 
-[Try a Demo](http://apeatling.com/demos/web-ptr/) | [Read the Blog Post](http://apeatling.com/2014/javascript-pull-to-refresh-web/)
+[Try a Demo](https://apeatling.github.io/web-pull-to-refresh/) | [Read the Blog Post](http://apeatling.com/2014/javascript-pull-to-refresh-web/)
 
 ## Usage
 
