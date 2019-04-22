@@ -77,8 +77,11 @@ There are a few optional parameters you can pass on initialization:
 	// Number of pixels of dragging down until refresh will fire
 	distanceToRefresh: 70, 
 
-  // The dragging resistance level, the higher the more you'll need to drag down.
-  resistance: 2.5
+	// The dragging resistance level, the higher the more you'll need to drag down.
+	resistance: 2.5,
+
+	// Pointer to function that will be called post reset
+	postResetFunction: function() { }
 }
 ```
 
