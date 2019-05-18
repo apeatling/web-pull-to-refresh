@@ -5,7 +5,7 @@ Pull to Refresh for the Web 1.1
 
 This is a pull to refresh implementation for the web. It focuses on buttery UX performance and responsiveness to feel as close to a native implementation as possible.
 
-[Try a Demo](https://apeatling.github.io/web-pull-to-refresh/) | [Read the Blog Post](https://apeatling.com/blog/javascript-pull-to-refresh-web/)
+[Try a Demo](https://apeatling.github.io/web-pull-to-refresh/) | [Read the Blog Post](https://apeatling.com/articles/javascript-pull-to-refresh-web/)
 
 ## Usage
 
@@ -82,4 +82,4 @@ There are a few optional parameters you can pass on initialization:
 }
 ```
 
-[Try a Demo](http://apeatling.com/demos/web-ptr/) | [Read the Blog Post](http://apeatling.com/2014/javascript-pull-to-refresh-web/)
+[Try a Demo](https://apeatling.github.io/web-pull-to-refresh/) | [Read the Blog Post](https://apeatling.com/articles/javascript-pull-to-refresh-web/)
